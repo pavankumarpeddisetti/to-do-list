@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do List App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>📝 Task</h1>
+
+      <!-- Task Form -->
+      <form id="taskForm">
+        <input
+          type="text"
+          id="taskName"
+          placeholder="Enter task name"
+          required
+        />
+
+        <textarea
+          id="taskDesc"
+          placeholder="Enter task description"
+          required
+        ></textarea>
+
+        <button type="submit">➕ Add Task</button>
+      </form>
+
+      <!-- Task List Section -->
+      <div id="taskList">
+        <!-- Tasks will appear here dynamically -->
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
